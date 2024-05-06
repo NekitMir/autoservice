@@ -1,0 +1,39 @@
+.mechanics {
+  padding: 65px 0 70px;
+  text-align: center;
+  color: var(--font-color-gray);
+}
+
+.mechanics-title {
+  font-size: 34px;
+  font-weight: 700;
+  padding: 0 0 35px;
+}
+
+.mechanics-photo {
+  width: 100%;
+  max-width: 950px;
+  height: 600px;
+  object-fit: cover;
+  margin: 60px 0;
+  border-style: inset;
+  border-radius: 10px;
+}
+
+.mechanics-description {
+  margin: 30px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .mechanics {
+    padding: 50px 0 70px;
+  }
+  .mechanics-photo {
+    height: 480px;
+  }
+  .mechanics-description {
+    font-size: 14px;
+  }
+}
