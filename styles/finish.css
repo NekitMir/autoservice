@@ -1,0 +1,52 @@
+.finish {
+  text-align: center;
+  padding: 80px 20px 100px;
+  background-color: var(--bg-main-gray);
+  color: var(--font-color-gray);
+}
+
+.finish-title {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.service {
+  width: 100%;
+  max-width: 950px;
+  height: 600px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin: 75px 0 40px;
+  width: min(100%, 950px);
+  height: min(100%, 630px);
+}
+
+.service-description {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.autopark {
+  width: 100%;
+  max-width: 950px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.autopark-description {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+@media (max-width: 480px) {
+  .autopark-description {
+    font-size: 14px;
+  }
+
+  .service {
+    margin: 50px 0 30px;
+  }
+}

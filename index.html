@@ -16,16 +16,16 @@
       <nav class="nav" aria-label="header navigation">
         <ul class="nav-list" aria-label="header navigation list">
           <li>
-            <a href="#" class="nav-link" aria-label="link to home">Главная</a>
+            <a href="#home-id" class="nav-link" aria-label="link to home">Главная</a>
           </li>
           <li>
-            <a href="#" class="nav-link" aria-label="link to teo">TO</a>
+            <a href="#teo-id" class="nav-link" aria-label="link to teo">TO</a>
           </li>
           <li>
-            <a href="#" class="nav-link" aria-label="link to mechanics">Мастера</a>
+            <a href="#mechanic-id" class="nav-link" aria-label="link to mechanics">Мастера</a>
           </li>
           <li>
-            <a href="#" class="nav-link" aria-label="link to price">Цены</a>
+            <a href="#service-id" class="nav-link" aria-label="link to price">Сервис</a>
           </li>
           <li>
             <a href="#" class="nav-link" aria-label="link to contacts">Контакты</a>
@@ -36,7 +36,7 @@
   </header>
 
   <main aria-label="main">
-    <section class="home" aria-label="section home">
+    <section class="home" aria-label="section home" id="home-id">
       <div class="container">
         <h1 class="home-title" aria-label="title">Авто | Сервис</h1>
         <p class="home-description" aria-label="description">Автосервис для вас и вашего авто</p>
@@ -44,7 +44,7 @@
       </div>
     </section>
 
-    <section class="teo" aria-label="teo section">
+    <section class="teo" aria-label="teo section" id="teo-id">
       <div class="container">
         <h2 class="teo-title" aria-label="title teo">т|о</h2>
         <h3 class="teo-subtitle" aria-label="subtitle teo">Технический осмотр — это проверка технического состояния транспортных средств на соответствие обязательным требованиям безопасности. Он нужен только в случаях, оговоренных в законе. Но владелец машины может пройти техосмотр добровольно.</h3>
@@ -58,13 +58,23 @@
       </div>
     </section>
 
-    <section class="mechanics" aria-label="mechanics section">
+    <section class="mechanics" aria-label="mechanics section" id="mechanic-id">
       <div class="container" aria-label="mechanics container">
         <h2 class="mechanics-title">Механики</h2>
         <img src="assets/webp/mechanics.webp" alt="mechanic" class="mechanics-photo">
         <p class="mechanics-description" aria-label="description mechanics">
           Лучшие мастера-механики для вашего авто. Автомобиль в надежных руках.
         </p>
+      </div>
+    </section>
+
+    <section class="finish" aria-label="finish section" id="service-id">
+      <div class="container" aria-label="finish container">
+        <h2 class="finish-title">Наш сервис</h2>
+        <img src="assets/webp/teo.webp" alt="замена масла" class="service">
+        <p class="service-description" aria-label="description service">Замена масел</p>
+        <img src="assets/webp/contacts.webp" alt="Автопарк для подмены авто" class="autopark">
+        <p class="autopark-description" aria-label="description auto">Автопарк для подмены авто</p>
       </div>
     </section>
   </main>
