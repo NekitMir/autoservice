@@ -50,7 +50,7 @@
 .contacts-info {
   width: 260px;
   margin: 35px auto 0;
-  color: var(--color-main-blue);
+  color: var(--font-color-gray);
   font-size: 15px;
   font-weight: 500;
 }
