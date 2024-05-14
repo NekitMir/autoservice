@@ -28,7 +28,7 @@
             <a href="#service-id" class="nav-link" aria-label="link to price">Сервис</a>
           </li>
           <li>
-            <a href="#" class="nav-link" aria-label="link to contacts">Контакты</a>
+            <a href="#contact-id" class="nav-link" aria-label="link to contacts">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -79,8 +79,33 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="contacts" aria-label="contacts section" id="contact-id">
+    <div class="container">
+      <h2 class="contact-title" aria-label="contact title">Контакты</h2>
+      <button class="contact-btn">
+        <a href="https://autoservice.ru" class="button-link" target="_blank">autoservice.ru</a>
+      </button>
 
+    <address class="socials" aria-label="socials icon">
+      <a href="https://youtube.com" target="_blank" aria-label="link to youtube">
+        <svg class="social-icon" aria-label="youtube icon">
+          <use href="assets/sprites.svg#youtube-icon"</use>
+        </svg>
+      </a>
+      <a href="https://instagram.com" target="_blank" aria-label="link to instagram">
+        <svg class="social-icon" aria-label="instagram icon">
+          <use href="assets/sprites.svg#instagram-icon"</use>
+        </svg>
+      </a>
+      <a href="https://vk.ru" target="_blank" aria-label="link to vk">
+        <svg class="social-icon" aria-label="vk icon">
+          <use href="assets/sprites.svg#vk-icon"</use>
+        </svg>
+      </a>
+    </address>
+
+      <p class="contacts-info" aria-label="contacts info">Вся свежая информация находится на наших источниках</p>
+    </div>
   </footer>
 </body>
 </html>
